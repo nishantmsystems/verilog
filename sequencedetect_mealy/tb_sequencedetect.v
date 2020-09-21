@@ -13,6 +13,7 @@ sequencedetector ss(
 .sequencedetect(sequencedetect)
 );
 always #10 clk=~clk;
+//TB starts
 initial begin
 clk<=0;
 #10 reset <=1;
