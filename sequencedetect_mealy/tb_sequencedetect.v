@@ -12,7 +12,6 @@ sequencedetector ss(
 .datain(datain),
 .sequencedetect(sequencedetect)
 );
-
 always #10 clk=~clk;  
 initial begin
 clk<=0;
